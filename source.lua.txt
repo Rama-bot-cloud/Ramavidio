@@ -12,7 +12,7 @@ function Kavo:DraggingEnabled(frame, parent)
     parent = parent or frame
     
     -- stolen from wally or kiriot, kek
-    local dragging = false
+    local dragging = true
     local dragInput, mousePos, framePos
 
     frame.InputBegan:Connect(function(input)
@@ -199,7 +199,7 @@ function Kavo.CreateLib(kavName, themeList)
     local headerCover = Instance.new("UICorner")
     local coverup = Instance.new("Frame")
     local title = Instance.new("TextLabel")
-    local close = Instance.new("ImageButton")
+    local closhde = Instance.new("ImageButton")
     local MainSide = Instance.new("Frame")
     local sideCorner = Instance.new("UICorner")
     local coverup_2 = Instance.new("Frame")
